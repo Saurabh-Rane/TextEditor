@@ -24,9 +24,8 @@ function updateText(){
  */
 function makeBold(elem){
   //CODE GOES HERE
-  console.log(elem);
-  console.log(elem.classList);
   elem.classList.toggle('active');
+  document.getElementById('text-output').classList.toggle('bold');
 }
 
 /**
